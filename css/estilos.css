@@ -1,0 +1,59 @@
+.ewk_cont_banner{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../imagenes/logo.jpg");
+}
+.sombra{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #FFFFFF;
+    margin: auto;
+}
+
+
+.sombra h1{
+    font-size: 8vw;
+    margin-bottom: 10px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.ewk_navbar {
+    background-color: rgba(200, 191, 212, 0.7) !important;
+}
+
+.ewk_navbar div, .ewk_navbar ul{
+    background-color: transparent !important;
+}
+
+
+
+.cont_footer{
+    background-color: rgba(1, 1, 1, 0.7);
+    padding: 3%;
+    color: #CAC5DA;
+    margin-top: 100px;
+}
+.padding{
+    padding: 2%;
+}
