@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    background: rgb(255, 255, 255);
+}
+.cont_footer{
+    background-color: rgba(1, 1, 1, 0.7);
+    padding: 3%;
+    color: #ffffff;
+    margin-top: 100px;
+}
+.ewk_navbar {
+    background-color: rgb(10, 157, 177) !important;
+}
