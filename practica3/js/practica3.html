@@ -1,90 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=EIlpyLVC0MHXZjMKhymXD5x__adgJL7sszT3bCHsX2OnHDtstFggsXxtrq7OYgDHUMUkI2Kllsi1BNTgBoWuKkgO56SlNeNXgmXuPzqJPo7INiJf_uE_4bzBAggQZ4zx" charset="UTF-8"></script><script src="js/practica3.js"></script>
+    <script type="text/javascript"
+        src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=EIlpyLVC0MHXZjMKhymXD5x__adgJL7sszT3bCHsX2OnHDtstFggsXxtrq7OYgDHUMUkI2Kllsi1BNTgBoWuKkgO56SlNeNXgmXuPzqJPo7INiJf_uE_4bzBAggQZ4zx"
+        charset="UTF-8"></script>
+    <script src="js/practica3.js"></script>
     <link rel="stylesheet" href="estilo.css">
-    
+
     <title>Practica</title>
-<style type="text/css">
-</style></head>
+    <style type="text/css">
+    </style>
+</head>
+
 <body>
-        <h2>Problema 1</h2>
-        <div class = 'contenedor'>
-            <form action="">
+    <h2>Problema 1</h2>
+    <p>1. Desarrolle una función en JavaScript que permita leer una temperatura
+        en grados Celsius y devuelva el clima según la siguiente tabla:</p>
+    <div class='contenedor'>
+        <form action="">
 
-                <p class="subti">Mostrar Temperatura</p><input type="text"  id='Temper'>
-                                    
-                <p class="subti">Clima Actual</p><p></p><input type="text"  id='result' readonly>
-    
-                <hr>
-    
-                <input class = 'btn' type="button" value='Temperatura' onclick="Temperatura()">
-    
-            </form>
-        </div>
+            <p class="subti">Mostrar Temperatura</p><input type="text" id='Temper'>
 
+            <p class="subti">Clima Actual</p>
+            <p></p><input type="text" id='result' readonly>
 
+            <hr>
 
-        <h2>Problema 2</h2>
-        <div class = 'contenedor'>
-            <form action="">
+            <input class='btn' type="button" value='Temperatura' onclick="Temperatura()">
 
-                <p class="subti">Ingresar un numero</p><input type="text"  id='nume1'>
-                                    
-                <p class="subti">El factorial es:</p><input type="text"  id='resp' readonly>
-    
-                <hr>
-    
-                <input class = 'btn' type="button" value='factorial' onclick="factorial()">
-    
-            </form>
-        </div>
+        </form>
+    </div>
 
 
-        <h2>Problema 4</h2>
 
-        <div class = 'contenedor'>
-            <form action="">
+    <h2>Problema 2</h2>
+    <p>2. Desarrolle una función en JavaScript que permita leer un numero y
+        devuelva el factorial del mismo.</p>
+    <div class='contenedor'>
+        <form action="">
 
-                <p class="subti">Fecha</p><input type="text"  id='mostrarfecha' readonly>
-    
-                <hr>
-    
-                <input class = 'btn' type="button" value='Fecha Actual' onclick="Fecha()">
-    
-            </form>
-        </div>
+            <p class="subti">Ingresar un numero</p><input type="text" id='nume1'>
+
+            <p class="subti">El factorial es:</p><input type="text" id='resp' readonly>
+
+            <hr>
+
+            <input class='btn' type="button" value='factorial' onclick="factorial()">
+
+        </form>
+    </div>
+
+
+    <h2>Problema 4</h2>
+    <p>4. Desarrolle una función en JavaScript que muestre la fecha actual.</p>
+    <div class='contenedor'>
+        <form action="">
+
+            <p class="subti">Fecha</p><input type="text" id='mostrarfecha' readonly>
+
+            <hr>
+
+            <input class='btn' type="button" value='Fecha Actual' onclick="Fecha()">
+
+        </form>
+    </div>
 
 </body>
-    
+
 <h2>Problema 3</h2>
-    <script src="practica3.js">
-        
-    </script>
-    <script>
-        var sum;
-var i;
+<p>3. Desarrolle una función en JavaScript que muestre el algoritmo Fizz-Buzz
+    (Este algoritmo se basa en que se debe hacer un contador desde el
+    número 1 al número 100, en orden correlativo, pero cada vez que un
+    número sea múltiplo de 3, debe decir Fizz y cada vez que un número sea
+    múltiplo de 5, debe decir Buzz, en el caso que un número sea múltiplo de
+    3 y 5, debe decir FizzBuzz, si el número no es múltiplo de 3 o 5 no
+    mostrara nada)</p>
+<script src="practica3.js">
 
-document.write("fizzbuzz", "<br>");
+</script>
+<script>
+    var sum;
+    var i;
 
-sum = 0;
-for (i = 1; i < 101; i = i +1){
-    if (i % 3 == 0 && i % 5 == 0){
-        document.write("fizzbuzz", "<br>");
+    document.write("fizzbuzz", "<br>");
+
+    sum = 0;
+    for (i = 1; i < 101; i = i + 1) {
+        if (i % 3 == 0 && i % 5 == 0) {
+            document.write("fizzbuzz", "<br>");
+        }
+        else if (i % 3 == 0) {
+            document.write("fizz", "<br>");
+        }
+        else if (i % 5 == 0) {
+            document.write("buzz", "<br>");
+        }
+        else {
+            document.write(i, "<br>");
+        }
     }
-    else if (i % 3 == 0){
-        document.write("fizz", "<br>");
-    }
-    else if (i % 5 == 0){
-        document.write("buzz", "<br>");
-    }
-    else{
-        document.write(i, "<br>");
-    }
-}
-    </script>
-    
+</script>
+
 </html>

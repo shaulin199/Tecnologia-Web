@@ -8,8 +8,8 @@
 
 body {
 	font-family: Arial, Sans-serif;
-	background: #858ea1;
 	color: #0c0b0b;
+	background-image: url(../img/fon1.jpg);
 }
 
 .contenedor {
