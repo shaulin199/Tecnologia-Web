@@ -8,9 +8,8 @@
 
 body {
 	font-family: Arial, Sans-serif;
-	background: #e1e3e9;
-	color: #191a18;
-	
+	background: #858ea1;
+	color: #0c0b0b;
 }
 
 .contenedor {
@@ -18,6 +17,7 @@ body {
 	margin: 20px;
 	padding: 20px;
 	margin-left: 50px;	
+	background:#566585 
 	
 }
 
@@ -36,8 +36,8 @@ input[type="text"]{
 
 form .btn {
 	width: 100%;
-	background: #cfcdd6;
-	color: rgb(12, 11, 11);
+	background: #d1cce2;
+	color: rgb(20, 18, 18);
 	border:none;
 	cursor: pointer;
 	font-size: 16px;
@@ -58,5 +58,5 @@ h2{
 }
 .subti{
 	font-size: 30px;
-	color: rgb(16, 15, 17);
+	color: rgb(15, 15, 15);
 }
