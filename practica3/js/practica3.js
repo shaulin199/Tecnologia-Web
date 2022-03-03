@@ -1,6 +1,6 @@
 /*(function()
 {
-    alert('Hola');
+    alert('Hi');
 
 }());*/
 
